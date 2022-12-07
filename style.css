@@ -1,10 +1,24 @@
 *{
     font-family:Poppins;
 }
+.nav-link{
+    color: black;
+}
 .judul{
     font-size:40px;
     font-family:Viga;
 }
 .tanggal{
     font-family:Tajawal;
+}
+
+@media only screen and (max-width: 992px) {
+    img.gambar_work{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .isi_work{
+        text-align :center;
+    }
 }
